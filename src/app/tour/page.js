@@ -40,7 +40,7 @@ export default function Home() {
         </h2>
         <p className="text-2xl font-roboto text-white tracking-[0.4em]">***************</p>
         <div className="flex flex-col items-center gap-x-12">
-          
+          <Member></Member>
         </div>
       </div>
     </main>
