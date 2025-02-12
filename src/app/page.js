@@ -8,7 +8,7 @@ export default function Home() {
       <Navigation />
 
       {/* hero container */}
-      <div className="flex flex-col items-center min-h-screen mt-12">
+      <div className="flex flex-col items-center min-h-screen mt-24`">
         <Image
           src="/images/hero.png"
           alt="Stage Fright"
@@ -35,12 +35,16 @@ export default function Home() {
       {/* about container */}
       <div className="flex flex-col items-center min-h-screen">
         <p className="text-2xl font-roboto text-white tracking-[0.4em]">*****************</p>
-        <h2 className="text-6xl font-prata text-white uppercase tracking-[0.4em] py-6">
+        <h2 className="text-6xl font-prata text-white tracking-[0.4em] py-6">
           about
         </h2>
         <p className="text-2xl font-roboto text-white tracking-[0.4em]">***************</p>
-        <div className="flex flex-col items-center gap-x-12">
-
+        <div className="flex items-center gap-x-12 mt-12">
+          <Member
+            src="/images/armaan.jpg"
+            name="armaan 'chuti' priyadarshan"
+            description="Lead Singer"
+          />
         </div>
       </div>
     </main>
