@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center">
       <Navigation />
 
-      {/* Hero Container */}
+      {/* hero container */}
       <div className="flex flex-col items-center min-h-screen mt-12">
         <Image
           src="/images/hero.png"
@@ -16,7 +16,7 @@ export default function Home() {
           height={500}
         />
         <h1 className="mt-12 text-2xl font-roboto text-white uppercase tracking-[0.5em]">
-          FRIGHTENING A STAGE NEAR YOU
+          frightening a stage near you
         </h1>
         <div className="mt-8">
           <svg
@@ -40,7 +40,7 @@ export default function Home() {
         </h2>
         <p className="text-2xl font-roboto text-white tracking-[0.4em]">***************</p>
         <div className="flex flex-col items-center gap-x-12">
-          
+
         </div>
       </div>
     </main>
