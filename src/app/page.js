@@ -50,7 +50,7 @@ export default function Home() {
         <p className="text-2xl font-roboto text-white tracking-[0.4em]">***************</p>
         <div className="flex items-center gap-x-12 mt-12">
           <Member src="/images/armaan.jpg" name="armaan" description="guitar" />
-          <Member src="/images/ethan.jpg" name="ethan" description="piano" />
+          <Member src="/images/ethan.jpg" name="ethan" description="bassist" />
           <Member src="/images/rishi.jpg" name="rishi" description="vocals" />
           <Member src="/images/shaurya.jpg" name="shaurya" description="percussion" />
         </div>
