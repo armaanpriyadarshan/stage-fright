@@ -1,21 +1,24 @@
 import Image from "next/image";
 
-export default function Navigation() {
+export default function Navigation({ scrollToAbout }) {
     return (
         <nav className="flex justify-center items-center p-12 ml-9">
             <ul className="flex gap-x-20 items-center">
                 <li>
-                    <a href="#" className="font-roboto text-white hover:underline">
+                    <button 
+                        onClick={scrollToAbout} 
+                        className="font-roboto text-white hover:underline focus:outline-none"
+                    >
                         about
-                    </a>
+                    </button>
                 </li>
                 <li>
-                    <a href="src/app/page.js" className="font-roboto text-white hover:underline">
+                    <a href="tour" className="font-roboto text-white hover:underline">
                         tour
                     </a>
                 </li>
                 <li className="group">
-                    <a href="#" className="block">
+                    <a href="/" className="block"> 
                         <Image 
                             src="/images/center.png" 
                             alt="Stage Fright" 
@@ -26,7 +29,7 @@ export default function Navigation() {
                     </a>
                 </li>
                 <li>
-                    <a href="#" className="font-roboto text-white hover:underline">
+                    <a href="merch" className="font-roboto text-white hover:underline">
                         merch
                     </a>
                 </li>
